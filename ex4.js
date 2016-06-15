@@ -10,6 +10,7 @@ document.getElementById("demo").innerHTML = people;
 
 function addButton() 
 {
+    //the splice method is inserted inside this function
   people.splice(2,0,"TELEPHONY");
    document.getElementById("demo").innerHTML = people;  
 }
